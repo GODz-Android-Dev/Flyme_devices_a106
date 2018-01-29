@@ -12,11 +12,9 @@ mkdir flyme
 
 cd flyme
 
-repo init -u https://github.com/FlymeOS/manifest.git -b nougat-7.1
+repo init -u https://github.com/GODz-Android-Dev/manifest.git -b nougat-7.1
 
 repo sync -c -j4
-
-git clone https://github.com/maharudra108/flyme_devices_a106 -b nougat-7.1 devices/a106
 ```
 
 # Build
