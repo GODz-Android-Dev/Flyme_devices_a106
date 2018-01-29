@@ -143,8 +143,8 @@ override_property += \
 # The default value is Nexus-6P_Unofficial.
 # You should configure the property according to your device and your ID with replace the "Nexus-6P_Unofficial".
 override_property += \
-    ro.flyme.romer=maharudra108 \
-    ro.product.model_romer=a106_Unofficial
+    ro.flyme.romer=GODz_Android_Dev \
+    ro.product.model_romer=micromax_a106
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
@@ -180,7 +180,7 @@ USE_ASSERTIONS_IN_UPDATER_SCRIPT := false
 # Will fall back to a file-based OTA if the target_files is older and doesn't support block-based OTAs.
 # Default: true
 #-----------------------------------------------------------------------------
-#PRODUCE_BLOCK_BASED_OTA := false
+PRODUCE_BLOCK_BASED_OTA := false
 
 ##############################################################################
 # Defines whether build an international version of package.
